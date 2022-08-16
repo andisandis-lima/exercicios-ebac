@@ -9,7 +9,7 @@
             Contexto:
             Dado que eu acesse a página de autenticação do site EBAC-SHOP
 
-            Esquema do Cenário: Autenticação com dados válidos
+            Cenário: Autenticação com dados válidos
 
             Quando eu digitar <usuario>
             E a <senha>

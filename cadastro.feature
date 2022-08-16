@@ -9,13 +9,13 @@
             Contexto:
             Dado que eu acesse a página de cadastro do site EBAC-SHOP
 
-            Esquema do Cenário: Campos com asterisco são obrigatórios
+            Cenário: Campos com asterisco são obrigatórios
 
             Quando eu digitar <nome>, <sobrenome>, <país>, <endereço>, <cidade>, <CEP>, <telefone>
             E <email>
             Então o cadastro deve ser efetuado com sucesso
 
-            Esquema do Cenário: Email com formato inválido
+            Cenário: Email com formato inválido
 
             Quando eu digitar <email>
             Então a página deve lançar o erro de "email com formato inválido"
